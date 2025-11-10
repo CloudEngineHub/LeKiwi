@@ -100,6 +100,10 @@ Everything needed for the wired version:
 | USB-C extension cable | 1 | $13.99 | [Amazon](https://www.amazon.com/Extension-Extender-Transfer-AINOPE-Compatible/dp/B0BHHK1W95/) | €19 | [Amazon](https://www.amazon.fr/EUDOBEL-Rallonge-Extension-Thunderbolt-iPhone16/dp/B0DLP16V7J/) | ¥25 | [Taobao](https://e.tb.cn/h.6RdbxakOTokPM0X?tk=nMrBV12F4uI ) |
 | **Total** || **$184** || **€235** || **¥963.9** ||
 
+You can find all optional for Lekiwi kits here:
+- from Seeed studio [🌍 International](https://www.seeedstudio.com/LeKiwi-Full-Kit-12V-Verision.html)
+
+  
 > Head to [3D Printing](3DPrinting.md) for the next step!
 
 <br></br>
