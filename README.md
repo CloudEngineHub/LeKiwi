@@ -26,7 +26,7 @@
 - (5V version) 65W Laptop power bank
 
 > [!TIP]  
-> If this is the first time you build robots please choose the 5V version as it’s a little bit easier to assemble. If you are more experienced and want to lift heavier objects choose the 12V version. If you want to cheapest option possible go for the wired LeKiwi version.
+> If this is the first time you build robots please choose the 5V version as it’s a little bit easier to assemble. If you are more experienced and want to lift heavier objects choose the 12V version. If you want the cheapest option possible go for the wired LeKiwi version.
 
 #### Compute
 - Raspberry Pi 5
@@ -57,6 +57,7 @@ We also provide the [URDF](./URDF/) exported from CAD for simulation.
 <div style="display: flex; justify-content: center; align-items: center; padding: 25px;">
     <img src="./media/assembly_imgs/IMG_9252.jpg" width="300" /> 
     <img src="./media/assembly_imgs/IMG_9256.jpg" width="300" /> 
+</div>
 
 We converted LeKiwi to use ROBOTIS components by using the Koch v1.1 arm, U2D2 motor controller, and Dynamixel XL430 motors for the mobile base.  [Dynamixel LeKiwi](DynamixelLeKiwi)
 
