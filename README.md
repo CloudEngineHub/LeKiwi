@@ -64,6 +64,10 @@ We converted LeKiwi to use ROBOTIS components by using the Koch v1.1 arm, U2D2 m
 
 Join the project on LeRobot's [Discord server](https://discord.gg/Jtz5TJtb2u) (channel `mobile-so100-arm`)! Let us know if you have any questions, suggestions, or other feedback.
 
+## Citation
+
+If you use LeKiwi in your research, please cite the repository using the metadata in [CITATION.cff](CITATION.cff). GitHub's **Cite this repository** menu provides APA and BibTeX citations.
+
 ## Main Contributors
 Thank you to everyone who helped on the project!
 
