@@ -44,27 +44,27 @@ With all 3 modules attached to the bottom base plate:
 
         <img src="media/assembly_imgs/IMG_1925.jpg" width="400" /> <img src="media/assembly_imgs/IMG_1928.jpg" width="400" />
 
-    - For the **5V version**: you can use the powerbamk holder to keep the powerbank in place `3DPrintMeshes/5v_specific/5v_power_bank_holder.stl`. The powerbank can be mounted in the back on the lower plate.
+    - For the **5V version**: you can use the power bank holder to keep the power bank in place: `3DPrintMeshes/5v_specific/5v_power_bank_holder.stl`. The power bank can be mounted at the back of the lower plate.
 
         <img src="media/assembly_imgs/IMG_7.jpg" width="400" />
         
-      The cables can be connected  according to following diagram:
+      The cables can be connected according to the following diagram:
       
         <img src="media/assembly_imgs/Slide1.jpeg" width="400" />
 
 ### 3. Top plate Assembly
-1. Place the raspberry pi 5 into the pi case bottom and snap on the top part of the case. 
+1. Place the Raspberry Pi 5 into the Pi case bottom and snap on the top part of the case.
 2. Attach the Pi to the top base plate using 2 m3x12 machine screws and mount the SO-101 arm with 4 m3x20 machine screws. Using our modified SO-101 base or the original will work as there are holes for both in the plate.
 
     <img src="media/assembly_imgs/IMG_1929.jpg" width="400" />
 
-- For the **Wired version**: you can print these two parts: `3DPrintMeshes/wired_specific/cable_holder v0.stl` and `3DPrintMeshes/wired_specific/usb_connector_case v1.stl` and assemble them like the images below. It is **very important** to plug the usb-c cable in the way like the images. Thus the `UGreen` logo on the same side as `20GBS, 240W` logo side. And the `20GBS, 240W` side on top into your laptop. If the usb-c extenstion cable can't find your camera's or motor controller board, the cable orientation is probably wrong and should be flipped 180 degrees!
+- For the **Wired version**: you can print these two parts, `3DPrintMeshes/wired_specific/cable_holder v0.stl` and `3DPrintMeshes/wired_specific/usb_connector_case v1.stl`, and assemble them as shown in the images below. It is **very important** to plug in the USB-C cable in the orientation shown. The `UGreen` logo should be on the same side as the `20GBS, 240W` label, with the `20GBS, 240W` side facing up when connected to your laptop. If the USB-C extension cable cannot detect your cameras or motor controller board, the cable orientation is probably wrong and should be flipped 180 degrees.
 
     Add cable holder and usb hub holder like this:
 
     <img src="media/assembly_imgs/WIRED4.jpeg" width="400" />
 
-    Attach cables for 2 camera's motor control board and usb-c extender like this (important!):
+    Attach the cables for the two cameras, motor control board, and USB-C extender as shown (important!):
 
     <div style="display: flex; align-items: flex-start;">
      <img src="media/assembly_imgs/WIRED1.jpeg" width="30%" alt="Wired Step 1" />
@@ -74,7 +74,7 @@ With all 3 modules attached to the bottom base plate:
 
 
 ### 4. Final Assembly
-1. Feed the servo controller usb-c to usb-a, 5v usb-c power, and SO0-101 servo wires through the hole in the top base plate. 
+1. Feed the servo controller USB-C to USB-A cable, 5V USB-C power cable, and SO-101 servo wires through the hole in the top base plate.
 
     <img src="media/assembly_imgs/IMG_1930.jpg" width="300" />
 
@@ -85,16 +85,16 @@ With all 3 modules attached to the bottom base plate:
 ### 5: Attach Cameras
 *Note: The mounts we designed are specific to the cameras we chose. They may need to be modified for different camera modules.*
 #### (Option 1) Mounting Arducam
-For these [camera's](https://www.amazon.com/Arducam-Camera-Computer-Without-Microphone/dp/B0972KK7BC) you can print these parts 1x `3DPrintMeshes/base_camera_mount.stl` and 1x `3DPrintMeshes/wrist_camera_mount.stl`.
-1. Screw the base camera mount onto the bottom base plate(attach the arducam 5MP wide angle camera to the mount with 2 m2.5x12 machine screws). The cable for the camera mount can also be fed through the cutout
+For these [cameras](https://www.amazon.com/Arducam-Camera-Computer-Without-Microphone/dp/B0972KK7BC), you can print these parts: 1x `3DPrintMeshes/base_camera_mount.stl` and 1x `3DPrintMeshes/wrist_camera_mount.stl`.
+1. Screw the base camera mount onto the bottom base plate (attach the Arducam 5MP wide-angle camera to the mount with 2 M2.5x12 machine screws). The cable for the camera mount can also be fed through the cutout.
 
     <img src="media/assembly_imgs/IMG_1935.jpg" width="300" />
-2. Screw the wrist camera mount to the static gripper using 4 m2x5 tap screws(attach the arducam 5MP wide angle camera to the mount with 2 m2.5x12 machine screws)
+2. Screw the wrist camera mount to the static gripper using 4 M2x5 tapping screws (attach the Arducam 5MP wide-angle camera to the mount with 2 M2.5x12 machine screws).
 
     <img src="media/assembly_imgs/IMG_1934.jpg" width="300" />
 
 #### (Option 2) Mounting Webcam
-For these [camera's](https://www.amazon.fr/Vinmooog-equipement-Microphone-Enregistrement-conférences/dp/B0BG1YJWFN/) you can print these parts 1x `3DPrintMeshes/webcam_mount/webcam_mount.stl`, 1x `3DPrintMeshes/webcam_mount/so100_gripper_cam_mount_insert.stl` and 1x `3DPrintMeshes/webcam_mount/webcam_mount_wrist.stl`. These can be used to attach a wrist and base camera to LeKiwi.
+For these [cameras](https://www.amazon.fr/Vinmooog-equipement-Microphone-Enregistrement-conférences/dp/B0BG1YJWFN/), you can print these parts: 1x `3DPrintMeshes/webcam_mount/webcam_mount.stl`, 1x `3DPrintMeshes/webcam_mount/so100_gripper_cam_mount_insert.stl`, and 1x `3DPrintMeshes/webcam_mount/webcam_mount_wrist.stl`. These can be used to attach a wrist and base camera to LeKiwi.
 
 1. Print the new gripper with insert for the M3 nut, and insert the nut. Then insert the motor and attach gripper. 
 
@@ -108,7 +108,7 @@ For these [camera's](https://www.amazon.fr/Vinmooog-equipement-Microphone-Enregi
     <img src="media/assembly_imgs/IMG_2.jpg" width="300" />
 
 
-### Plug everything in and its ready!
-Power the electronics by plugging in the DC barrel plug adapter to the servo motor controller and the 5v usb-c connector to the raspberry pi 5. The usb cables from the servo controller and the cameras can directly be plugged in to the raspberry pi.
+### Plug everything in and it's ready!
+Power the electronics by plugging the DC barrel plug adapter into the servo motor controller and the 5V USB-C connector into the Raspberry Pi 5. The USB cables from the servo controller and the cameras can be plugged directly into the Raspberry Pi.
 
 <img src="media/assembly_imgs/IMG_1940.jpg" width="400" /> <img src="media/assembly_imgs/IMG_1938.jpg" width="400" />
